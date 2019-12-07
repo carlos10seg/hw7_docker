@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+   <body>
+      <h1>Most popular female names for all ethnicities in 2016</h1>
+      <ul>
+          {% for item in content %}
+            <li>{{ item['FirstName'] }}</li>
+          {% endfor %}
+      </ul>
+      
+   </body>
+</html>
